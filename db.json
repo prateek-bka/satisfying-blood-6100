@@ -1,0 +1,17 @@
+{
+  "login": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 1,
+      "body": "job1",
+      "postId": 1
+    }
+  ]
+  
+}
