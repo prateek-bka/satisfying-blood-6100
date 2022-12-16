@@ -7,6 +7,7 @@ const Jobs = () => {
   const [data, setData] = useState([]);
 
   async function getData() {
+    //axios
     axios.get("http://localhost:8080/jobs").then((response) => {
       console.log(response.data);
       setData(response.data);
