@@ -1,16 +1,58 @@
 {
-  "login": [
-    {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
   "jobs": [
     {
       "id": 1,
-      "body": "job1",
-      "postId": 1
+      "title": "Full Stack Web Developer",
+      "location": "Delhi NCR",
+      "Experience": "1-3 yrs"
+    },
+    {
+      "id": 2,
+      "title": "Data Engineer",
+      "location": "Chennai",
+      "Experience": "2-5 yrs"
+    },
+    {
+      "id": 3,
+      "title": "Devops Engineer",
+      "location": "Hyderabad",
+      "Experience": "1-2 yrs"
+    },
+    {
+      "id": 4,
+      "title": "React JS Developer",
+      "location": "Gurgaon",
+      "Experience": "1-2 yrs"
+    },
+    {
+      "id": 5,
+      "title": "Full Stack Web Developer",
+      "location": "Bengaluru",
+      "Experience": "2-5 yrs"
+    },
+    {
+      "id": 6,
+      "title": "Node JS Developer",
+      "location": "Jaipur",
+      "Experience": "2-7 yrs"
+    },
+    {
+      "id": 7,
+      "title": "Data Engineer",
+      "location": "Bhopal",
+      "Experience": "3-5 yrs"
+    },
+    {
+      "id": 8,
+      "title": "Devops Engineer",
+      "location": "Pune",
+      "Experience": "0-2 yrs"
+    },
+    {
+      "id": 9,
+      "title": "React JS Developer",
+      "location": "Bengaluru",
+      "Experience": "5-10 yrs"
     }
   ]
   

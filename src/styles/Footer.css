@@ -1,0 +1,24 @@
+.main_footer_container {
+  margin-left: 5%;
+  display: flex;
+  padding: 1%;
+}
+
+.mini_footer_div {
+  width: 80%;
+}
+
+.mini_footer_div input {
+  width: 60%;
+}
+
+.mini_footer_div img {
+  width: 60%;
+}
+
+.mini_footer_div :hover {
+  text-decoration: none;
+  color: rgb(43, 5, 12);
+  font-size: larger;
+  cursor: pointer;
+}
