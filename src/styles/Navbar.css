@@ -1,0 +1,41 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 3%;
+}
+
+.navlinks {
+  color: rgba(48, 48, 48, 0.801);
+  text-decoration: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: x-large;
+}
+
+.navlinks:hover {
+  text-decoration: none;
+  color: rgb(118, 44, 57);
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.navlinks > img {
+  width: 12%;
+}
+
+#first_btn {
+  background-color: white;
+  color: blue;
+  border-radius: 37%;
+  border-color: blue;
+}
+
+#second_btn {
+  background-color: orange;
+  color: white;
+  border-radius: 37%;
+  border-color: orange;
+}

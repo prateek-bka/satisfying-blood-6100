@@ -1,0 +1,39 @@
+.homeContainer_div_1 {
+  margin: auto;
+  text-align: center;
+  padding-top: 3%;
+}
+
+.homeContainer_div_1 > h1 {
+  color: rgb(139, 3, 3);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.homeContainer_div_1 > h4 {
+  color: rgb(14, 14, 152);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#homeContainer_div_1_input {
+  width: 50%;
+  padding: 1%;
+  margin-top: 2%;
+  margin-bottom: 1%;
+}
+
+#homeContainer_div_1_btn {
+  padding: 1%;
+  width: 10%;
+  background-color: blue;
+  color: white;
+}
+
+.homeContainer_div_2 {
+  background-color: rgb(252, 252, 252);
+}
+
+.homeContainer_div_3 {
+  text-align: center;
+  margin: 2%;
+  padding: 1%;
+}
