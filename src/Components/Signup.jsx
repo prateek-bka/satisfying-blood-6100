@@ -1,5 +1,6 @@
+import "../styles/Signup.css";
 import { useRef } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 
 function Signup() {
   const name = useRef();
@@ -8,7 +9,7 @@ function Signup() {
 
   const navigate = useNavigate();
 
-  const localSignup = localStorage.getItem("signup");
+  // const localSignup=localStorage.getItem("signup")
 
   const handleClick = () => {
     if (name.current.value && email.current.value && password.current.value) {
@@ -25,8 +26,9 @@ function Signup() {
     }
   };
   return (
-    <>
+    <div className="maincontainer">
       <div className="container">
+        <h1>Sign Up</h1>
         <div className="input_space">
           <input type="text" placeholder="name" ref={name} />
         </div>
@@ -37,8 +39,13 @@ function Signup() {
           <input type="password" placeholder="password" ref={password} />
         </div>
         <button onClick={handleClick}>Sign up</button>
+        <br />
+        <p>
+          {" "}
+          <Link to="/login">Login</Link>, If you are already a user{" "}
+        </p>
       </div>
-    </>
+    </div>
   );
 }
 export default Signup;

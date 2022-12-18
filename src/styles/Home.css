@@ -29,11 +29,18 @@
 }
 
 .homeContainer_div_2 {
-  background-color: rgb(252, 252, 252);
+  text-align: center;
+  padding: 3%;
+  margin: auto;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .homeContainer_div_3 {
   text-align: center;
   margin: 2%;
   padding: 1%;
+}
+
+.homeContainer_div_3 img {
+  width: 90%;
 }

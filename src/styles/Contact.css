@@ -1,0 +1,10 @@
+.mainContainer_contactus {
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+
+.mainContainer_contactus div {
+  padding: 3%;
+}
