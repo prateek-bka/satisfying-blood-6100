@@ -17,17 +17,20 @@ const HomeContainer = () => {
           id="homeContainer_div_1_input"
           placeholder="Enter Skills"
         />
-        <button id="homeContainer_div_1_btn">Search</button>
+        <button id="homeContainer_div_1_btn" onClick={() => navigate("/login")}>
+          Search
+        </button>
       </div>
 
       <div className="homeContainer_div_2">
+        <h2>Jobs you may be interested in</h2>
         <Slider />
       </div>
 
       <div className="homeContainer_div_3">
         <h2>Top companies hiring now</h2>
         <img
-          onClick={() => navigate("/jobs")}
+          onClick={() => navigate("/login")}
           src="https://i.ibb.co/pbjfD04/companies.jpg"
           alt=""
         />
